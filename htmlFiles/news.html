@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- style.css -->
+    <link rel="stylesheet" href="../cssFiles/news.css">
+    <link rel="shortcut icon" href="../assets/logo/ChatGPT Image Apr 26, 2025, 07_47_00 PM.png" type="image/x-icon">
+    <!-- Bootstrap Icon -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <!-- Remix Icon -->
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet">
+    <title>Aether Dreamz</title>
+</head>
+<body>
+    <section class="navbar" id="navbar">
+        <a href="index.html"><img src="../assets/logo/ChatGPT Image Apr 26, 2025, 07_47_00 PM.png" alt="logo" style="cursor: pointer;"></a>
+        <div class="hamburger" id="hamburger">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+        <div class="menu" id="menu">
+            <a href="index.html">Home</a>
+            <a href="news.html">News</a>
+            <a href="char.html">Characters</a>
+            <a href="world.html">World</a>
+        </div>
+    </section>
+
+    <section class="hero">
+        <div class="overlay">
+            <div class="title">
+                <h1>news</h1>
+            </div>
+        </div>
+    </section>
+
+    <section class="News">
+        <div class="container">
+            <div class="Title">
+                <h2>Stay Update with the latest news</h2>
+            </div>
+            <hr>
+            <div class="button">
+                <div class="search" id="search">
+                    <input type="text" id="searchBar" placeholder="Search News...">
+                </div>
+                <div class="dropdown">
+                    <div class="category">
+                        <button class="dropbtn" id="catBtn">
+                            <span class="label">Category</span>
+                            <i class="bi bi-chevron-down"></i>
+                        </button>
+                        <div class="dropdown-menu">
+                            <p id="all">All</p>
+                            <p id="update">Update</p>
+                            <p id="event">Event</p>
+                            <p id="system">System</p>
+                        </div>
+                    </div>
+                    <div class="views">
+                        <button class="dropbtn" id="viewBtn">
+                            <span class="label">Views</span>
+                            <i class="bi bi-chevron-down"></i>
+                        </button>
+                        <div class="dropdown-menu">
+                            <p id="most">Popular</p>
+                            <p id="least">Least Viewed</p>
+                        </div>
+                    </div>
+                    <div class="date">
+                        <button class="dropbtn" id="dateBtn">
+                            <span class="label">Date</span>
+                            <i class="bi bi-chevron-down"></i>
+                        </button>
+                        <div class="dropdown-menu">
+                            <p id="new">Latest</p>
+                            <p id="old">Oldest</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <hr>
+            <div class="news">
+                <div class="detail" data-category="update" data-view="958473" data-date="2025-04-25">
+                    <img src="../assets/image/biome.jpg" alt="New World">
+                    <div class="info">
+                        <span class="update">Update</span>
+                        <p>April 25, 2025</p>
+                    </div>
+                    <div class="title">
+                        New Biome on Sky Island: Celestine Peaks
+                    </div>
+                    <div class="furtherMore" style="color: var(--update-bg);">
+                        <span><i class="bi bi-eye"></i> 958k</span>
+                        <p>Read News <i class="bi bi-arrow-right"></i></p>
+                    </div>
+                </div>
+                <div class="detail" data-category="event" data-view="873219" data-date="2025-03-17">
+                    <img src="../assets/image/event.jpg" alt="Twin Dragons">
+                    <div class="info">
+                        <span class="event">Event</span>
+                        <p>March 17, 2025</p>
+                    </div>
+                    <div class="title">
+                        Twin Dragons: Limited-Time Event
+                    </div>
+                    <div class="furtherMore" style="color: var(--event-bg);">
+                        <span><i class="bi bi-eye"></i> 873k</span>
+                        <p>Read News <i class="bi bi-arrow-right"></i></p>
+                    </div>
+                </div>
+                <div class="detail" data-category="system" data-view="1247831" data-date="2025-01-05">
+                    <img src="../assets/image/maintenance.jpg" alt="Maintenance">
+                    <div class="info">
+                        <span class="system">System</span>
+                        <p>January 05, 2025</p>
+                    </div>
+                    <div class="title">
+                        Scheduled Maintenance: January 26
+                    </div>
+                    <div class="furtherMore" style="color: var(--system-bg);">
+                        <span><i class="bi bi-eye"></i> 1.2m</span>
+                        <p>Read News <i class="bi bi-arrow-right"></i></p>
+                    </div>
+                </div>
+                <div class="detail" data-category="update" data-view="502894" data-date="2024-11-19">
+                    <img src="" alt="New World">
+                    <div class="info">
+                        <span class="update">Update</span>
+                        <p>November 19, 2024</p>
+                    </div>
+                    <div class="title">
+                        New Biome on Sky Island: Celestine Peaks
+                    </div>
+                    <div class="furtherMore" style="color: var(--update-bg);">
+                        <span><i class="bi bi-eye"></i> 502k</span>
+                        <p>Read News <i class="bi bi-arrow-right"></i></p>
+                    </div>
+                </div>
+                <div class="detail" data-category="event" data-view="689412" data-date="2024-09-28">
+                    <img src="" alt="New World">
+                    <div class="info">
+                        <span class="event">Event</span>
+                        <p>September 28, 2024</p>
+                    </div>
+                    <div class="title">
+                        New Biome on Sky Island: Celestine Peaks
+                    </div>
+                    <div class="furtherMore" style="color: var(--event-bg);">
+                        <span><i class="bi bi-eye"></i> 689k</span>
+                        <p>Read News <i class="bi bi-arrow-right"></i></p>
+                    </div>
+                </div>
+                <div class="detail" data-category="event" data-view="10385" data-date="2024-08-17">
+                    <img src="" alt="New World">
+                    <div class="info">
+                        <span class="event">Event</span>
+                        <p>August 17, 2024</p>
+                    </div>
+                    <div class="title">
+                        New Biome on Sky Island: Celestine Peaks
+                    </div>
+                    <div class="furtherMore" style="color: var(--event-bg);">
+                        <span><i class="bi bi-eye"></i> 10k</span>
+                        <p>Read News <i class="bi bi-arrow-right"></i></p>
+                    </div>
+                </div>
+                <div class="detail" data-category="update" data-view="705879" data-date="2024-02-01">
+                    <img src="" alt="New World">
+                    <div class="info">
+                        <span class="update">Update</span>
+                        <p>February 01, 2024</p>
+                    </div>
+                    <div class="title">
+                        New Biome on Sky Island: Celestine Peaks
+                    </div>
+                    <div class="furtherMore" style="color: var(--update-bg);">
+                        <span><i class="bi bi-eye"></i> 705k</span>
+                        <p>Read News <i class="bi bi-arrow-right"></i></p>
+                    </div>
+                </div>
+                <div class="detail" data-category="system" data-view="975083" data-date="2024-01-10">
+                    <img src="" alt="New World">
+                    <div class="info">
+                        <span class="system">System</span>
+                        <p>January 10, 2024</p>
+                    </div>
+                    <div class="title">
+                        New Biome on Sky Island: Celestine Peaks
+                    </div>
+                    <div class="furtherMore" style="color: var(--system-bg);">
+                        <span><i class="bi bi-eye"></i> 975k</span>
+                        <p>Read News <i class="bi bi-arrow-right"></i></p>
+                    </div>
+                </div>
+                <div class="detail" data-category="event" data-view="1397846" data-date="2023-09-20">
+                    <img src="" alt="New World">
+                    <div class="info">
+                        <span class="event">Event</span>
+                        <p>September 20, 2023</p>
+                    </div>
+                    <div class="title">
+                        New Biome on Sky Island: Celestine Peaks
+                    </div>
+                    <div class="furtherMore" style="color: var(--event-bg);">
+                        <span><i class="bi bi-eye"></i> 1.3m</span>
+                        <p>Read News <i class="bi bi-arrow-right"></i></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="footers">
+        <div class="footer">
+            <footer class="container">
+                <h3>Social Media:</h3>
+                <div class="sosmed">
+                    <a href="https://www.youtube.com/@someonetomeetyou" target="_blank"><i class="bi bi-youtube"></i></a>
+                    <a href="https://www.instagram.com/i77.o13/" target="_blank"><i class="bi bi-instagram"></i></a>
+                    <a href="https://x.com/Ju5tS0m3Th1ng" target="_blank"><i class="bi bi-twitter-x"></i></a>
+                    <a href="https://www.facebook.com/s4me.sam3/" target="_blank"><i class="bi bi-facebook"></i></a>
+                    <a href="https://github.com/AksajrenoFH" target="_blank"><i class="bi bi-github"></i></a>
+                </div>
+            </footer>
+        </div>
+        <div class="footer">
+            <footer class="container">
+                <h3>Special Thanks to:</h3>
+                <div class="special">
+                    <p>Chat GPT (Color & Advisor)</p>
+                    <p>Readdy AI (Template)</p>
+                    <p>Arknight (Template)</p>
+                    <p>Hoyoverse (Template)</p>
+                    <p>Colorful Stage (Template)</p>
+                    <p>Spotify (For The Song)</p>
+                    <p>YOU (Who Look This Website)</p>
+                </div>
+            </footer>
+        </div>
+        <div class="footer">
+            <footer class="container">
+                <img src="../assets/logo/ChatGPT Image Apr 26, 2025, 07_47_00 PM.png" alt="Logo">
+                <div class="link">
+                    <a href="index.html">Home</a>
+                    <a href="news.html">News</a>
+                    <a href="char.html">Characters</a>
+                    <a href="world.html">World</a>
+                </div>
+            </footer>
+        </div>
+    </section>
+
+    <!-- script.js -->
+    <script src="../jsFiles/news.js"></script>
+</body>
+</html>
