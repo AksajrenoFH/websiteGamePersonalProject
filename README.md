@@ -20,7 +20,7 @@ Berikut tampilan dari website-nya:
 
 ### 1. Halaman Home/Utama
 
-![image](https://github.com/user-attachments/assets/7d95e094-5ee6-44db-b80c-57eeff904240)
+![image](https://github.com/user-attachments/assets/7095c889-7b21-4cd6-b2d6-1e8e65218e25)
 
 ### 2. Halaman Berita/News
 
