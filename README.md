@@ -18,13 +18,13 @@ Sebuah website yang memberi informasi terhadap suatu permainan game online, sepe
 
 Berikut tampilan dari website-nya:
 
+### 1. Halaman Home/Utama
+
 ![image](https://github.com/user-attachments/assets/7d95e094-5ee6-44db-b80c-57eeff904240)
 
-Halaman Home/Utama
+### 2. Halaman Berita/News
 
 ![image](https://github.com/user-attachments/assets/c73eabcc-1fd5-4ec5-ace4-ebd055f312c3)
-
-Halaman Berita/News
 
 ...Project Masih berlanjut tunggu kelanjutannya!
 
