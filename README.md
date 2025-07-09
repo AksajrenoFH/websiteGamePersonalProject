@@ -13,6 +13,7 @@ A Website that give an information about online game, like news, character and w
 - ✅ Responsive (Laptop, HP, Tablet)
 - ✅ Dan masih banyak lagi
 
+## 🔥 Key Feature
 - ✅ Search Fiture to make user easily find something
 - ✅ Dropwon fiture to filtered something
 - ✅ Responsive Design
