@@ -2,15 +2,21 @@
 
 Sebuah website yang memberi informasi terhadap suatu permainan game online, seperti berita/news, karakter dan juga world. Yang mana ini bisa membuat orang menjadi lebih paham tentang seluk beluk dan lore dri game tersebut
 
+A Website that give an information about online game, like news, character and world info. This can make people more understand about the game lore or something else
+
 ---
 
 ## 🔥 Fitur Utama
 
-- ✅ Fitur Search untuk mempermudah mencari sesuatu
+- ✅ Fitur Search untuk mempermudah mencari sesuatu 
 - ✅ Fitur Dropdown untuk memfilter sesuatu
-- ✅ Pagination/Halaman
 - ✅ Responsive (Laptop, HP, Tablet)
 - ✅ Dan masih banyak lagi
+
+- ✅ Search Fiture to make user easily find something
+- ✅ Dropwon fiture to filtered something
+- ✅ Responsive Design
+- ✅ And many more
 
 ---
 
@@ -27,6 +33,7 @@ Berikut tampilan dari website-nya:
 ![image](https://github.com/user-attachments/assets/c73eabcc-1fd5-4ec5-ace4-ebd055f312c3)
 
 ...Project Masih berlanjut tunggu kelanjutannya!
+...Project still ongoing wait for the continuing
 
 ---
 
