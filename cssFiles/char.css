@@ -63,7 +63,7 @@ body{
     position: fixed;
     width: 100%;
     z-index: 999;
-    background-color: rgba(75, 60, 187);
+    background-color: rgb(75, 60, 187);
     opacity: 1;
     transform: translateY(0px);
 }
@@ -108,8 +108,8 @@ body{
 
 .hero{
     color: var(--accent);
-    background-image: url(../assets/image/hero2.jpg);
-    background-position: top;
+    background-image: url(../assets/image/hero3.jpg);
+    background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     min-height: 50vh;
@@ -173,13 +173,11 @@ body{
     padding-right: calc(16px / 1.618 / 1.618);
 }
 
-/*  */
-
-.News{
+.Characters{
     margin: calc(16px * 1.618 * 1.618 * 1.618) calc(16px * 1.618 * 1.618) calc(16px * 1.618 * 1.618 * 1.618 * 1.618 * 1.618) calc(16px * 1.618 * 1.618);
 }
 
-.News .container{
+.Characters .container{
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -187,7 +185,7 @@ body{
     gap: calc(16px * 1.618 * 1.618);
 }
 
-.News .container .Title{
+.Characters .container .Title{
     font-size: var(--text-n);
     color: var(--secondary);
     display: flex;
@@ -198,7 +196,7 @@ body{
     padding-bottom: calc(16px * 1.618 * 1.618);
 }
 
-.News .container .button{
+.Characters .container .button{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
@@ -214,7 +212,7 @@ body{
     border-bottom: calc(1px * 1.618 * 1.618) solid var(--secondary);
 }
 
-.News .container .button .search input[type=text]{
+.Characters .container .button .search input[type=text]{
     cursor: text;
     border: 1px solid gray;
     font-size: var(--text-s);
@@ -226,18 +224,18 @@ body{
     border-radius: calc(16px / 1.618);
 }
 
-.News .container .button .search input[type=text]:focus{
+.Characters .container .button .search input[type=text]:focus{
     outline: 3px solid var(--secondary);
 }
 
-.News .container .button .dropdown{
+.Characters .container .button .dropdown{
     display: flex;
     flex-wrap: wrap;
     gap: calc(16px * 1.618);
     justify-content: space-around;
 }
 
-.News .container .button .dropbtn{
+.Characters .container .button .dropbtn{
     padding: calc(16px / 1.618) 16px;
     width: 160px;
     text-align: left;
@@ -248,11 +246,11 @@ body{
     cursor: pointer;
 }
 
-.News .container .button .dropbtn i{
+.Characters .container .button .dropbtn i{
     cursor: pointer;
 }
 
-.News .container .button .dropdown-menu{
+.Characters .container .button .dropdown-menu{
     display: none;
     position: absolute;
     margin-top: -10px;
@@ -268,117 +266,116 @@ body{
     z-index: 2;
 }
 
-.News .container .button .dropdown-menu p:nth-child(1){
+.Characters .container .button .dropdown-menu p:nth-child(1){
     border-top: 1px solid gray;
 }
 
-.News .container .button .dropdown-menu p{
+.Characters .container .button .dropdown-menu p{
     cursor: pointer;
     padding: 16px;
     font-weight: 600;
     border-bottom: 1px solid gray;
 }
 
-.News .container .button .dropdown-menu p:hover{
+.Characters .container .button .dropdown-menu p:hover{
     background-color: #dbdbdb;
 }
 
-.News .container .button .dropdown-menu p:nth-last-child(1){
+.Characters .container .button .dropdown-menu p:nth-last-child(1){
     border-bottom-right-radius: 16px;
     border-bottom-left-radius: 16px;
 }
 
-.News .container .news{
-    padding-top: calc(16px * 1.618 * 1.618 * 1.618);
+.Characters .container .character .container .char{
     display: flex;
-    gap: calc(16px * 1.618 * 1.618);
     flex-wrap: wrap;
     justify-content: center;
-    width: 100%;
+    gap: calc(16px * 1.618);
 }
 
-.News .container .news .detail{
+.Characters .container .character .container .char .detail{
     width: 350px;
     border-radius: calc(16px / 1.618);
     background-color: var(--secondary);
     color: var(--primary);
-    padding: 0 0 16px 0;
     box-shadow: 10px 10px 12px 3px var(--primary);
     transition: all 250ms ease-in-out;
 }
 
-.News .container .news .detail:hover{
+.Characters .container .character .container .char .detail:hover{
     transform: translateY(-10px);
 }
 
-.News .container .news .detail img{
+.Characters .container .character .container .char .detail .img{
+    height: 250px;
+}
+
+.Characters .container .character .container .char .detail img{
     border-top-right-radius: calc(16px / 1.618);
     border-top-left-radius: calc(16px / 1.618);
-    width: 350px;
-    height: auto;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: top;
 }
 
-.News .container .news .detail div{
-    padding: calc(16px / 1.618) 16px;
-}
-
-.News .container .news .detail .info{
+.Characters .container .character .container .char .detail .info{
     display: flex;
-    justify-content: space-between;
+    flex-direction: column;
+    gap: calc(16px * 1.618);
+    padding: 16px;
 }
 
-.News .container .news .detail .info span{
-    padding: calc(16px / 1.618 / 1.618) 16px;
-    border-radius: 16px;
+.Characters .container .character .container .char .detail .info .name{
+    display: flex;
+    flex-direction: column;
+    gap: calc(16px / 1.618);
+}
+
+.Characters .container .character .container .char .detail .info .name span{
+    color: var(--accent);
+    font-size: var(--text-n);
     font-weight: 700;
 }
 
-.News .container .news .detail .info .update{
-    background-color: var(--update-bg);
-    color: var(--update-color);
-}
-
-.News .container .news .detail .info .event{
-    background-color: var(--event-bg);
-    color: var(--event-color);
-}
-
-.News .container .news .detail .info .system{
-    background-color: var(--system-bg);
-    color: var(--system-color);
-}
-
-.News .container .news .detail .info p{
+.Characters .container .character .container .char .detail .info .name p{
     color: white;
 }
 
-.News .container .news .detail .title{
-    text-transform: capitalize;
-    color: var(--accent);
-    font-weight: 700;
-    font-size: var(--text-n);
+.Characters .container .character .container .char .detail .info .name .star .bi-star-fill{
+    color: yellow;
 }
 
-.News .container .news .detail .furtherMore{
-    padding-top: calc(16px * 1.618);
-    font-weight: 700;
+.Characters .container .character .container .char .detail .info .name .star .bi-star{
+    color: white;
+}
+
+.Characters .container .character .container .char .detail .info .name .star-special .bi-star-fill{
+    background: linear-gradient(to right, rgb(255, 220, 226), rgb(255, 192, 203), rgb(247, 135, 171), rgb(238, 84, 238), rgb(255, 0, 255));
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+}
+
+.Characters .container .character .container .char .detail .info .name .star-special .bi-star{
+    background: linear-gradient(to right, rgb(255, 220, 226), rgb(255, 192, 203), rgb(247, 135, 171), rgb(238, 84, 238), rgb(255, 0, 255));
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+}
+
+.Characters .container .character .container .char .detail .info .stat{
     display: flex;
-    gap: calc(16px * 1.618 * 1.618);
-    justify-content: space-between;
+    justify-content: space-around;
+}
+
+.Characters .container .character .container .char .detail .info .stat .hp, .character .container .char .detail .info .stat .atk, .character .container .char .detail .info .stat .def{
+    color: var(--secondary);
+    font-weight: 700;
+    background-color: white;
+    padding: calc(16px / 1.618) calc(16px * 1.618) calc(16px / 1.618) calc(16px / 1.618);
     border-radius: calc(16px / 1.618);
 }
-
-.News .container .news .detail .furtherMore span{
-    color: var(--accent);
-}
-
-.News .container .news .detail .furtherMore a{
-    text-decoration: none;
-    pointer-events: none;
-    cursor: pointer;
-}
-
-/*  */
 
 .footers{
     display: flex;
@@ -526,8 +523,5 @@ body{
     }
     .hero .overlay .title{
         max-width: 90%;
-    }
-    .News .container .button{
-        zoom: 0.9;
     }
 }

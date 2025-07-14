@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- style.css -->
+    <link rel="stylesheet" href="../cssFiles/char.css">
+    <link rel="shortcut icon" href="../assets/logo/ChatGPT Image Apr 26, 2025, 07_47_00 PM.png" type="image/x-icon">
+    <!-- Bootstrap Icon -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <!-- Remix Icon -->
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet">
+    <title>Aether Dreamz</title>
+</head>
+<body>
+    <section class="navbar" id="navbar">
+        <a href="index.html"><img src="../assets/logo/ChatGPT Image Apr 26, 2025, 07_47_00 PM.png" alt="logo" style="cursor: pointer;"></a>
+        <div class="hamburger" id="hamburger">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+        <div class="menu" id="menu">
+            <a href="index.html">Home</a>
+            <a href="news.html">News</a>
+            <a href="char.html">Characters</a>
+            <a href="world.html">World</a>
+        </div>
+    </section>
+
+    <section class="hero">
+        <div class="overlay">
+            <div class="title">
+                <h1>Characters</h1>
+            </div>
+        </div>
+    </section>
+
+    <section class="Characters">
+        <div class="container">
+            <div class="Title">
+                <h2>Discover all playable character in Aether Dreamz</h2>
+            </div>
+            <div class="button">
+                <div class="search" id="search">
+                    <input type="text" id="searchBar" placeholder="Search Characters...">
+                </div>
+                <div class="dropdown">
+                    <div class="class">
+                        <button class="dropbtn" id="classBtn">
+                            <span class="label">Class</span>
+                            <i class="bi bi-chevron-down"></i>
+                        </button>
+                        <div class="dropdown-menu">
+                            <p id="all">All</p>
+                            <p id="fighter">Fighter</p>
+                            <p id="mage">Mage</p>
+                            <p id="ranger">Ranger</p>
+                            <p id="assassin">Assassin</p>
+                            <p id="support">Support</p>
+                        </div>
+                    </div>
+                    <div class="star">
+                        <button class="dropbtn" id="starBtn">
+                            <span class="label">Star</span>
+                            <i class="bi bi-chevron-down"></i>
+                        </button>
+                        <div class="dropdown-menu"> 
+                            <p id="default-star">Default</p>
+                            <p id="highest-star">Highest</p>
+                            <p id="lowest-star">Lowest</p>
+                        </div>
+                    </div>
+                    <div class="hp">
+                        <button class="dropbtn" id="hpBtn">
+                            <span class="label">HP</span>
+                            <i class="bi bi-chevron-down"></i>
+                        </button>
+                        <div class="dropdown-menu">
+                            <p id="default-hp">Default</p>
+                            <p id="highest-hp">Highest</p>
+                            <p id="lowest-hp">Lowest</p>
+                        </div>
+                    </div>
+                    <div class="atk">
+                        <button class="dropbtn" id="atkBtn">
+                            <span class="label">ATK</span>
+                            <i class="bi bi-chevron-down"></i>
+                        </button>
+                        <div class="dropdown-menu">
+                            <p id="default-atk">Default</p>
+                            <p id="highest-atk">Highest</p>
+                            <p id="lowest-atk">Lowest</p>
+                        </div>
+                    </div>
+                    <div class="def">
+                        <button class="dropbtn" id="defBtn">
+                            <span class="label">DEF</span>
+                            <i class="bi bi-chevron-down"></i>
+                        </button>
+                        <div class="dropdown-menu">
+                            <p id="default-def">Default</p>
+                            <p id="highest-def">Highest</p>
+                            <p id="lowest-def">Lowest</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <hr>
+            <div class="character">
+            <div class="container">
+                <div class="char">
+                    <div class="detail" data-class="support" data-star="3" data-hp="7840" data-atk="2150" data-def="780">
+                        <div class="img">
+                            <img src="../assets/image/char1.jpg" alt="Support Char">
+                        </div>
+                        <div class="info">
+                            <div class="name">
+                                <span>Victore Voltspark</span>
+                                <p>Genius Tech</p>
+                                <div class="star">
+                                    <i class="bi bi-star-fill"></i>
+                                    <i class="bi bi-star-fill"></i>
+                                    <i class="bi bi-star-fill"></i>
+                                    <i class="bi bi-star"></i>
+                                    <i class="bi bi-star"></i>
+                                </div>
+                            </div>
+                            <div class="stat">
+                                <div class="hp">
+                                    <span>HP</span>
+                                    <p>7,840</p>
+                                </div>
+                                <div class="atk">
+                                    <span>ATK</span>
+                                    <p>2,150</p>
+                                </div>
+                                <div class="def">
+                                    <span>DEF</span>
+                                    <p>780</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="detail" data-class="assasin" data-star="4" data-hp="8420" data-atk="3780" data-def="740">
+                        <div class="img">
+                            <img src="../assets/image/char2.jpg" alt="Assasin Char">
+                        </div>
+                        <div class="info">
+                            <div class="name">
+                                <span>Elena Voidbeater</span>
+                                <p>Whisper Assasin</p>
+                                <div class="star">
+                                    <i class="bi bi-star-fill"></i>
+                                    <i class="bi bi-star-fill"></i>
+                                    <i class="bi bi-star-fill"></i>
+                                    <i class="bi bi-star-fill"></i>
+                                    <i class="bi bi-star"></i>
+                                </div>
+                            </div>
+                            <div class="stat">
+                                <div class="hp">
+                                    <span>HP</span>
+                                    <p>8,420</p>
+                                </div>
+                                <div class="atk">
+                                    <span>ATK</span>
+                                    <p>3,780</p>
+                                </div>
+                                <div class="def">
+                                    <span>DEF</span>
+                                    <p>740</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="detail" data-class="fighter" data-star="6" data-hp="14350" data-atk="2780" data-def="1650">
+                        <div class="img">
+                            <img src="../assets/image/char3.jpg" alt="Fighter Char">
+                        </div>
+                        <div class="info">
+                            <div class="name">
+                                <span>Jamie Quartz</span>
+                                <p>Celestial Warrior</p>
+                                <div class="star-special">
+                                    <i class="bi bi-star-fill"></i>
+                                    <i class="bi bi-star"></i>
+                                    <i class="bi bi-star"></i>
+                                </div>
+                            </div>
+                            <div class="stat">
+                                <div class="hp">
+                                    <span>HP</span>
+                                    <p>14,350</p>
+                                </div>
+                                <div class="atk">
+                                    <span>ATK</span>
+                                    <p>2,780</p>
+                                </div>
+                                <div class="def">
+                                    <span>DEF</span>
+                                    <p>1,650</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="detail" data-class="mage" data-star="5" data-hp="8760" data-atk="3540" data-def="720">
+                        <div class="img">
+                            <img src="../assets/image/char4.jpg" alt="Mage Char">
+                        </div>
+                        <div class="info">
+                            <div class="name">
+                                <span>Yuna Morana</span>
+                                <p>Iceberg Princess</p>
+                                <div class="star">
+                                    <i class="bi bi-star-fill"></i>
+                                    <i class="bi bi-star-fill"></i>
+                                    <i class="bi bi-star-fill"></i>
+                                    <i class="bi bi-star-fill"></i>
+                                    <i class="bi bi-star-fill"></i>
+                                </div>
+                            </div>
+                            <div class="stat">
+                                <div class="hp">
+                                    <span>HP</span>
+                                    <p>8,760</p>
+                                </div>
+                                <div class="atk">
+                                    <span>ATK</span>
+                                    <p>3,540</p>
+                                </div>
+                                <div class="def">
+                                    <span>DEF</span>
+                                    <p>720</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- <div class="detail" data-class="" data-star="" data-hp="" data-atk="" data-def="">
+                        <div class="img">
+                            <img src="../assets/image/char.jpg" alt=" Char">
+                        </div>
+                        <div class="info">
+                            <div class="name">
+                                <span></span>
+                                <p></p>
+                                <div class="star">
+                                    <i class="bi bi-star"></i>
+                                    <i class="bi bi-star"></i>
+                                    <i class="bi bi-star"></i>
+                                    <i class="bi bi-star"></i>
+                                    <i class="bi bi-star"></i>
+                                </div>
+                            </div>
+                            <div class="stat">
+                                <div class="hp">
+                                    <span>HP</span>
+                                    <p></p>
+                                </div>
+                                <div class="atk">
+                                    <span>ATK</span>
+                                    <p></p>
+                                </div>
+                                <div class="def">
+                                    <span>DEF</span>
+                                    <p></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div> -->
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="footers">
+        <div class="footer">
+            <footer class="container">
+                <h3>Social Media:</h3>
+                <div class="sosmed">
+                    <a href="https://www.youtube.com/@someonetomeetyou" target="_blank"><i class="bi bi-youtube"></i></a>
+                    <a href="https://www.instagram.com/i77.o13/" target="_blank"><i class="bi bi-instagram"></i></a>
+                    <a href="https://x.com/Ju5tS0m3Th1ng" target="_blank"><i class target="_blank"="bi bi-twitter-x"></i></a>
+                    <a href="https://www.facebook.com/s4me.sam3/" target="_blank"><i class="bi bi-facebook"></i></a>
+                    <a href="https://github.com/AksajrenoFH" target="_blank"><i class="bi bi-github"></i></a>
+                </div>
+            </footer>
+        </div>
+        <div class="footer">
+            <footer class="container">
+                <h3>Special Thanks to:</h3>
+                <div class="special">
+                    <p>Chat GPT (Color & Advisor)</p>
+                    <p>Readdy AI (Template)</p>
+                    <p>Spotify (For The Song)</p>
+                    <p>YOU (Who Look This Website)</p>
+                </div>
+            </footer>
+        </div>
+        <div class="footer">
+            <footer class="container">
+                <img src="../assets/logo/ChatGPT Image Apr 26, 2025, 07_47_00 PM.png" alt="Logo">
+                <div class="link">
+                    <a href="index.html">Home</a>
+                    <a href="news.html">News</a>
+                    <a href="char.html">Characters</a>
+                    <a href="world.html">World</a>
+                </div>
+            </footer>
+        </div>
+    </section>
+
+    <!-- script.js -->
+    <script src="../jsFiles/char.js"></script>
+</body>
+</html>
